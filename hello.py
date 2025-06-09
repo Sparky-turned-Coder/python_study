@@ -8,6 +8,8 @@
 # else:
 #     print('Access Denied. You shall not pass!')
 
+
+
 # This program says hello and asks for your name and age
 
 print('Hello, World!')
@@ -15,7 +17,9 @@ print("What is your name, if you don't mind me asking?")
 myName = input()
 print("It's very nice to meet you, " + myName + '!')
 length = len(myName)
-print("The length of your name, by the way, is: " + str(int(length)))
+print("The length of your name, by the way, is: " + str(length) + "!")
 print("How old are you, if you don't mind me asking?")
 myAge = input()
-print("Wow, you're " + str(int(myAge)) + "! That's not so old. Yet...")
+print("Wow, you're " + myAge + "! That's not so old. Yet...")
+
+
