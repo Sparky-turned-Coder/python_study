@@ -24,4 +24,11 @@
 
 message = ("Hello, Python World.")
 print(message)
+message = ("Hello, Python Crash Course world!")
+print(message) 
+
+print('This is a string.')
+print('This is also a string.')
+print("'This is a string that's got apostrophes and quote marks in it. Pretty neat huh?'")
+
 
