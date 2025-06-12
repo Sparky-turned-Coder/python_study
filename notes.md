@@ -32,7 +32,6 @@ The _lower()_ method is particularly useful for storing data. You typically won'
     - removesuffix() can be utilized to remove an exact phrase included in the arguement.
 
 ### Methods we've run into thus far:
-    - title()   - upper()
-    - lower()
+    - title()   - upper()   - lower()
     - rstrip()  - lstrip()  - strip()
     - removesuffix()
