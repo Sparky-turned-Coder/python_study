@@ -19,6 +19,7 @@ The _lower()_ method is particularly useful for storing data. You typically won'
 
 - To insert a variable's value into a string, place the letter _f_ immediately before the opening quotation mark. Put braces around the name or names of any variable you want to use inside the string. Python will replace each variable with its value when the string is displayed.
     - These are called _f-strings_. The _f_ is for _format_, because Python formats the string by replacing the name of any variable in braces with its value.
+    
 
 
 ### Minor side track:
@@ -26,3 +27,14 @@ The _lower()_ method is particularly useful for storing data. You typically won'
     - rstrip() removes anything in the arguement from right to left.
     - lstrip() removes anything in the arguement from left to right.
     - strip() with no arguement removes whitespace from either side of the variable.
+
+    - removesuffix() can be utilized to remove the exact phrase in the arguement.
+
+### Methods we've run into thus far:
+    - title()
+    - upper()
+    - lower()
+    - rstrip()
+    - lstrip()
+    - strip()
+    - removesuffix()
