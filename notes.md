@@ -35,3 +35,11 @@ The _lower()_ method is particularly useful for storing data. You typically won'
     - title()   - upper()   - lower()
     - rstrip()  - lstrip()  - strip()
     - removesuffix()
+
+## Adding whitespace to strings with tabs and newlines
+    - \n  will print the output on a new line
+    - \t  will tab the output to the right
+
+### Stripping Whitespace
+We touched on this briefly above when I went on a side quest learning strip methods. Extra whitespace can be confusing in your programs. To programmers, "Python" and "Python " look the same, but to a program they are two _different_ strings. Python detects the extra whitespace and considers it significant unless you tell it otherwise.
+
