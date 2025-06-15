@@ -4,4 +4,5 @@ print(f"\n\t{name}")
 
 print('Who is your favorite person from history?')
 fav_person = input().title()
-print(f"You like {fav_person}? Nice choice. Cool dude.")
+print({fav_person})
+print(f"You like {fav_person.strip()}? Nice choice. Cool dude.")
