@@ -3,7 +3,7 @@
 
 - print(name.title())
     - title() is a _method_
-- A method is an action Python can perform on a piece of data.
+- A _method_ is an action Python can perform on a piece of data.
     - The dot (.) after name tells python to make the title() method act on the variable 'name'.
 - Methods are followed by parantheses () because they often need additional information to do their work.
 
@@ -30,11 +30,12 @@ The _lower()_ method is particularly useful for storing data. You typically won'
         - By default (no arguement included), these methods remove whitespace characters (spaces, tabs, newlines, etc.). You can specify a string of characters to be removed as an arguement (inside the parantheses next to the method).
 
     - removesuffix() can be utilized to remove an exact phrase included in the arguement.
+    - removeprefix() can be utilized to remove an exact phrase included in the argument.
 
 ### Methods we've run into thus far:
     - title()   - upper()   - lower()
     - rstrip()  - lstrip()  - strip()
-    - removesuffix()
+    - removesuffix()    - removeprefix()
 
 ## Adding whitespace to strings with tabs and newlines
     - \n  will print the output on a new line
