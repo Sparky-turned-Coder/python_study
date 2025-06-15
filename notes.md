@@ -46,18 +46,22 @@ We touched on this briefly above when I went on a side quest learning strip meth
 
 ### Underscores in Numbers
 When you're writing long numbers, you can group digits using underscores to make large numbers more readable:  
+
     >>> universe_age = 14_000_000_000 years old  
 
-When you print a number that was defined using underscores, Python prints only the digits:      
+When you print a number that was defined using underscores, Python prints only the digits:   
+
     >>> print(universe_age)  
      14000000000 years old  
 
 ### Integers and Floats
 When you divide any two numbers, even if they are integers that result in a whole number, you'll always get a float:  
+
     >>> 4/2  
      2.0  
 
 If you mix an integer and a float in any other operation, you'll get a float as well:  
+
     >>> 1 + 2.0  
      3.0  
     >>> 2 * 3.0  
@@ -67,6 +71,7 @@ If you mix an integer and a float in any other operation, you'll get a float as 
 
 ### Multiple Assignment
 You can assign values to more than one variable using just a single line of code. This can help shorten your programs and make them easier to read; you'll use this technique most often when initializing a set of numbers.  
+
     >>> x, y, z = 1, 2, 3  
     >>> print(x)  
      1  
