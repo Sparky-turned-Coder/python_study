@@ -44,3 +44,46 @@ The _lower()_ method is particularly useful for storing data. You typically won'
 ### Stripping Whitespace
 We touched on this briefly above when I went on a side quest learning strip methods. Extra whitespace can be confusing in your programs. To programmers, "Python" and "Python " look the same, but to a program they are two _different_ strings. Python detects the extra whitespace and considers it significant unless you tell it otherwise.
 
+### Underscores in Numbers
+When you're writing long numbers, you can group digits using underscores to make large numbers more readable:
+    >>> universe_age = 14_000_000_000 years old
+
+When you print a number that was defined using underscores, Python prints only the digits:
+    >>> print(universe_age)
+    14000000000 years old
+
+### Integers and Floats
+When you divide any two numbers, even if they are integers that result in a whole number, you'll always get a float:
+    >>> 4/2
+    2.0
+
+If you mix an integer and a float in any other operation, you'll get a float as well:
+    >>> 1 + 2.0
+    3.0
+    >>> 2 * 3.0
+    6.0
+    >>> 3.0 ** 2
+    9.0
+
+### Multiple Assignment
+You can assign values to more than one variable using just a single line of code. This can help shorten your programs and make them easier to read; you'll use this technique most often when initializing a set of numbers.
+    >>> x, y, z = 1, 2, 3
+    >>> print(x)
+    1
+    >>> print(y)
+    2
+    >>> print(z)
+    3
+    >>> print(x, y, z)
+    1 2 3
+
+*** I tested multiple assignment with assigning string values to variables, and it works, just not sure yet when this will come into practical use. We shall see.
+
+### Constants
+A _constant_ is a variable whose value stays the same throughout the life of a program. _Python doesn't have built-in contant types_, but Python programmers use all capital letters to inidicate a variable should be treated as a constant and never be changed. (good python syntax etiquette to know)
+    >>> MAX_CONNECTIONS = 5000
+
+So when you want to _treat_ a variable as a constant in your code, write the name of the variable in all capital letters. This reminds you that it was intended to be a constant in case you forget, and allows other programmers who view your code to know the same thing.
+
+### The Zen of Python
+Enter _import this_ into a Python terminal session to view Tim Peters' brief list of principles for writing good Python code. 
