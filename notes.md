@@ -89,7 +89,7 @@ So when you want to _treat_ a variable as a constant in your code, write the nam
 Enter _import this_ into a Python terminal session to view Tim Peters' brief list of principles for writing good Python code. 
 
 # Introducing Lists
-### List slicing.
+### List slicing
 Skipping ahead here because I ran into a python challenge question on LinkedIn last night that peaked my interest. Now I want to understand how slicing a list works (I'm just starting the chapter on lists).  
 
 a = ['a', 'b', 'c', 'd', 'e']
