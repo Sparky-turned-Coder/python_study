@@ -92,12 +92,12 @@ Enter _import this_ into a Python terminal session to view Tim Peters' brief lis
 ### List slicing
 Skipping ahead here because I ran into a python challenge question on LinkedIn last night that peaked my interest. Now I want to understand how slicing a list works (I'm just starting the chapter on lists).  
 
->>> a = ['a', 'b', 'c', 'd', 'e']
->>> print(a[-2:-4:-1])      # Here we are slicing the list 'a' from index -2 to -4, with a step of -1  
+    >>> a = ['a', 'b', 'c', 'd', 'e']
+    >>> print(a[-2:-4:-1])      # Here we are slicing the list 'a' from index -2 to -4, with a step of -1  
 
->>> a =    ['a', 'b', 'c', 'd', 'e']  
-Indexes:     0    1    2    3    4  
-Negative:   -5   -4   -3   -2   -1  
+    >>> a =    ['a', 'b', 'c', 'd', 'e']  
+    Indexes:     0    1    2    3    4  
+    Negative:   -5   -4   -3   -2   -1  
 
 This means:  
 
