@@ -1,7 +1,7 @@
 # Python Syntax and Programming Concepts
 Studying and learning python syntax and programming concepts. Long term goal is to utilize current electrical skills and marry them with python programming.
 
-The plan is to focus on Python Crash Course by Eric Matthes.
+The plan is to focus on _Python Crash Course_ by Eric Matthes.
 
 We will spend the next 8 weeks working through Part 1 Basics.
 - Beginning on 6/9/2025
