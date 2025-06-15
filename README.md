@@ -14,7 +14,6 @@ Afterwhich, we will begin focusing in on specific projects.
 
 # Tech Stack
 - Python
-- Various Libraries
 
 # Author
 Chris Jones
