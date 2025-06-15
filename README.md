@@ -9,7 +9,7 @@ We will spend the next 8 weeks working through Part 1 Basics.
 
 Afterwhich, we will begin focusing in on specific projects.
 
-- [x] Finished Chapters 1 and 2 on 6/15/2025
+- ✅ Finished Chapters 1 and 2 on 6/15/2025
 
 # Tech Stack
 - Python
