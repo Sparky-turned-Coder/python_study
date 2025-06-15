@@ -24,9 +24,9 @@ The _lower()_ method is particularly useful for storing data. You typically won'
 
 ### Minor side track:
 - Learned how strip(), lstrip, and rstrip() methods operate. Pretty neat.
-    - rstrip() removes characters from the right (trailing) end of a string.
-    - lstrip() removes characters from the beginning (left side) of the string.
-    - strip() removes characters from both the beginning and end of a string.
+    - rstrip() removes characters/whitespace from the right (trailing) end of a string.
+    - lstrip() removes characters/whitespace from the beginning (left side) of the string.
+    - strip() removes characters/whitespace from both the beginning and end of a string.
         - By default (no arguement included), these methods remove whitespace characters (spaces, tabs, newlines, etc.). You can specify a string of characters to be removed as an arguement (inside the parantheses next to the method).
 
     - removesuffix() can be utilized to remove an exact phrase included in the arguement.
