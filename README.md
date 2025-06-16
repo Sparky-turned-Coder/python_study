@@ -14,6 +14,9 @@ Afterwhich, we will begin focusing in on specific projects.
 
 # Tech Stack
 - Python
+- Excel
+- SQL
+- Tableau
 
 # Author
 Chris Jones
