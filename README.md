@@ -17,6 +17,7 @@ Afterwhich, we will begin focusing in on specific projects.
 - Excel
 - SQL
 - Tableau
+- Power BI
 
 # Author
 Chris Jones
