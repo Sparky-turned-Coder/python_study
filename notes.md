@@ -111,3 +111,7 @@ Start at index -2 → 'd'
 Stop before index -4 → 'b'  
 
 Step -1 → move backward one element at a time  
+
+
+# Game Development with Python
+It's a hobby. Let's make a game with python and Ren'Py.
