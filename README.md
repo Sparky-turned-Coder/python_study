@@ -14,6 +14,8 @@ Afterwhich, we will begin focusing in on specific projects.
 
 # Tech Stack
 - Python
+  - Ren'Py
+  - PyGame
 - Excel
 - SQL
 - Tableau
