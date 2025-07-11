@@ -110,4 +110,10 @@ Start at index -2 → 'd'
 
 Stop before index -4 → 'b'  
 
-Step -1 → move backward one element at a time  
+Step -1 → move backward one element at a time 
+
+### Using individual values in a list
+You can use individual values fro ma list just as you would any other variable. For example, you can use F-strings to create a message based on a value from a list.
+    See:  lists.py
+
+We build a sentence using the value at bicycles[0] and assign it to the variable message. The output is a simple sentence about the first bicycle in the list.
