@@ -8,4 +8,4 @@
 
 famous_person = 'stephen king'
 message = "'If you want to be a writer you must do two things above all else: read alot and write alot. There's no other way around it. If you don't have the time to read, then you don't have the time, or the tools, to write.'"
-print(f"{famous_person.title()} once said, {message} ")
+print(f"{famous_person.title()} once said, {message} ") 
