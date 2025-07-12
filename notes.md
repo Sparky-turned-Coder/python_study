@@ -144,6 +144,8 @@ When using range(), we create a sequence of numbers starting at 1 and stopping _
     for i in range(1, 5):
         print (i)
 
+_i_ is a __loop variable__ - a temporary name that holds each value from the sequence created by range(1, 5) __one at a time__.
+
 Will output:
 
     1
