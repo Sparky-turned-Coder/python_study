@@ -165,12 +165,43 @@ If you know the position of the item you want to remove from a list, you can use
     >>> ['honda', 'yamaha', 'suzuki']
 
     del motorcycles[0]
-    ['yamaha', suzuki']
+    >>> ['yamaha', suzuki']
 
 You can remove an item from any position in a list using the _del_ statement if you know its index.
 
 You can no longer access the value that was removed from the list after the _del_ statement is used.
 
 ### Removing an item using the pop() Method
+Sometimes you'll want to use the value of an item after you remove it from a list. For example, you might want to get the x and y position of an alien that was just show down, so you can draw an explosion at that position. In a web application, you might want to remove a user from a list of active members and then add the user to a list of inactive members.
+
+The pop() method removes the last item in a list, but it lets you work with that item after removing it. The term _pop_ comes from thinking of a list as a stack of items and popping one item off the top of the stack. In this analogy, the top of a stack corresponds to the end of a list.
+
+Let's pop a motorcycle from our list of motorcycles.
+
+    motorcycles = ['honda', 'yamaha', 'suzuki']
+    print(motorcycles)
+    >>> ['honda', 'yamaha', 'suzuki']
+
+    popped_motorcycle = motorcycles.pop()
+    print(motorcycles)
+    >>> ['honda', 'yamaha']
+
+    print(popped_motorcycle)
+    >>> suzuki
+
+Here we assigned the _popped_ value to a new variable. We can then print the popped value by simply printing the new variable. But remember pop() removes it from your list. So printing the original variable will display the values, minus the popped value.
+
+How might this pop() method be useful? Imagine that the motorcycles in the list are stored in chronological order, according to when we owned them. If this is the case, we can use the pop() method to print a statement about the last motorcycle we bought.
+
+    motorcycles = ['honda', 'yamaha', 'suzuki']
+    
+    last_owned = motorcycles.pop()
+    print(f"The last motorcycle I owned was a {last_owned.title()}.")
+    >>> The last motorcycle I owned was a Suzuki.
+
+Remember that each time you use pop(), the item you work with is no longer stored in the list.
+
+If you're unsure whether to use the _del_ statement or the _pop()_ method, here's a simple way to decide: when you want to delete an item from a list and not use that item in any way, use the _del_ statement; if you want to use an item as you remove it, use the _pop()_ method.
+
 
 
