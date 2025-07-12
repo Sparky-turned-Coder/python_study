@@ -131,10 +131,10 @@ _index, item_	Tuple unpacking. Each (index, value) pair produced by enumerate() 
 
 So the loop runs three times with these variable bindings:
 
-Iteration	index	item
-1	        0	    'apple'
-2	        1	    'banana'
-3	        2	    'cherry'
+    - Iteration	index	item
+    -   1	      0	    'apple'
+    -   2	      1	    'banana'
+    -   3	      2	    'cherry'
 
 Then, we just _print(index, item)_ to see the result.
 
