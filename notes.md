@@ -117,3 +117,24 @@ You can use individual values fro ma list just as you would any other variable. 
     See:  lists.py
 
 We build a sentence using the value at bicycles[0] and assign it to the variable message. The output is a simple sentence about the first bicycle in the list.
+
+### Using Enumerate()
+If you need to see index assignments for values you've assigned to a list variable, you can use this function to print out the index number and the value to see exactly what index each item in your list is.
+
+_for index, item in enumerate(mylist):_
+This is a for loop header. Several things happen here:
+
+_for ... in ...:_	Tells Python to iterate over a sequence, executing the indented block once for each element.
+_enumerate(mylist)_	The built‑in enumerate() function wraps any iterable and yields pairs (index, value) on the fly:
+[(0, 'apple'), (1, 'banana'), (2, 'cherry'), …]. By default the index starts at 0, but you can pass a start argument (e.g., enumerate(my_list, start=1)).
+_index, item_	Tuple unpacking. Each (index, value) pair produced by enumerate() is a two‑element tuple. The first element is assigned to index, the second to item on every iteration.
+
+So the loop runs three times with these variable bindings:
+
+Iteration	index	item
+1	        0	    'apple'
+2	        1	    'banana'
+3	        2	    'cherry'
+
+Then, we just _print(index, item)_ to see the result.
+

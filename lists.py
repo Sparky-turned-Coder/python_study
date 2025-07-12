@@ -49,3 +49,38 @@ import random
 
 dinners = ['Spaghetti', 'Meatballs', 'Pizza', 'Chicken', 'Steak and Potatoes', 'Beans and Cornbread', 'Salad']
 print("Tonight, you should make:", random.choice(dinners))
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+
+motorcycles[0] = 'ducati'  # We changed index 0 to a different value named 'ducati'
+print(motorcycles)
+
+motorcycles.append('honda') # We added a new value to our existing 'motorcycles' list with APPEND
+print(motorcycles)
+
+trades = []
+trades.append('plumbers')
+trades.append('electricians')
+trades.append('duct guys')
+trades.append('fire alarm guys')
+trades.append('framers')
+trades.append('painters')
+trades.append('roofers')
+print(trades)
+
+print(f"I am one of the {trades[1].title()}.")
+print(f"My dad is a {trades[0].title().rstrip('s')}.")
+trades.append('operators')
+
+print(f"My brother is now an {trades[7].title().rstrip('s')}.")
+
+print(f"Mexicans are often {trades[4].title()}. Just a general observation from an {trades[1].title().rstrip('s')}.")
+trades[2] = 'HVAC guys'
+print(trades)
+
+for index, item in enumerate(trades): # This is a FOR LOOP header. ENUMERATE is a built-in function that wraps any iterable and yields pairs (index, value) on the fly: By default the index starts at 0, but you can pass a start argument (e.g., enumerate(my_list, start=1)).
+    print(index, item)  # TUPLE UNPACKING. Each (index, value) pair produced by enumerate() is two-element tuple. The first element is the assigned index, the second is the item in your list on every iteration.
+
+print(f"When you get down to the controls, an {trades[2].rstrip('s')} actually sees a lot of electrical circuitry.")
+
