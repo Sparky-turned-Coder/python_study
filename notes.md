@@ -154,5 +154,6 @@ Will output:
     4
 
 The number 5 is _excluded_ - that's how range() works in Python:
+
     range(start, stop) → includes __start__, excludes __stop__
 
