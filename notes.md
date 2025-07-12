@@ -157,3 +157,20 @@ The number 5 is _excluded_ - that's how range() works in Python:
 
 range(start, stop) → includes __start__, excludes __stop__
 
+### Removing an item using the __del__ Statement
+If you know the position of the item you want to remove from a list, you can use the _del_ statement:
+
+    motorcycles = ['honda', 'yamaha', 'suzuki']
+    print(motorcycles)
+    >>> ['honda', 'yamaha', 'suzuki']
+
+    del motorcycles[0]
+    ['yamaha', suzuki']
+
+You can remove an item from any position in a list using the _del_ statement if you know its index.
+
+You can no longer access the value that was removed from the list after the _del_ statement is used.
+
+### Removing an item using the pop() Method
+
+
