@@ -131,7 +131,7 @@ _index, item_	Tuple unpacking. Each (index, value) pair produced by enumerate() 
 
 So the loop runs three times with these variable bindings:
 
-    Iteration index	item
+    Iteration index	    item
       1	    0	  'apple'
       2	    1	  'banana'
       3	    2	  'cherry'
