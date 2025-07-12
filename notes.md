@@ -140,13 +140,17 @@ Then, we just _print(index, item)_ to see the result.
 
 ### Range()
 When using range(), we create a sequence of numbers starting at 1 and stopping _before_ 5.
+
     - for i in range(1, 5):
         print (i)
+
 Will output:
+
     - 1
     - 2
     - 3
     - 4
+
 The number 5 is _excluded_ - that's how range() works in Python:
     range(start, stop) → includes start, excludes stop
 
