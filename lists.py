@@ -84,3 +84,26 @@ for index, item in enumerate(trades): # This is a FOR LOOP header. ENUMERATE is 
 
 print(f"When you get down to the controls, an {trades[2].rstrip('s')} actually sees a lot of electrical circuitry.")
 
+# Below, we are populating a list called 'movies' with a user's inputs.
+movies = []
+print("What are your favorite movies? List as many as you want.")
+
+# movies.append(input("Movie 1: ").title())
+# movies.append(input("Movie 2: ").title())
+# movies.append(input("Movie 3: ").title())
+# movies.append(input("Movie 4: ").title())
+
+# Instead of writing '.append(input(...)) over and over again. Use a loop. This follows the DRY principle: "Don't Repeat Yourself":
+
+for i in range(1, 9): # This range(1, 9) is creating a sequence of numbers starting at 1 and ending BEFORE 9, which is why we get 8 results. Keep in mind, the INDEXING still begins with zero. Thus we have zero through seven when we print the enumerated tuples.
+    movie = input(f"Movie {i}: ").title()
+    movies.append(movie)
+
+print(f"\nYour favorite movies are:")
+# print(movies)   For a cleaner result (without the square brackets, we print a concatenated string), use:
+print(", ".join(movies))
+
+for index, item in enumerate(movies):
+    print(index, item)
+
+print(f"\nI think {movies[3].title()} is a hell of a movie.")

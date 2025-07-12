@@ -131,10 +131,22 @@ _index, item_	Tuple unpacking. Each (index, value) pair produced by enumerate() 
 
 So the loop runs three times with these variable bindings:
 
-    - Iteration	index	item
+    - Iteration index	item
     -   1	      0	    'apple'
     -   2	      1	    'banana'
     -   3	      2	    'cherry'
 
 Then, we just _print(index, item)_ to see the result.
+
+### Range()
+When using range(), we create a sequence of numbers starting at 1 and stopping _before_ 5.
+    for i in range(1, 5):
+        print (i)
+Will output:
+    1
+    2
+    3
+    4
+The number 5 is _excluded_ - that's how range() works in Python:
+    range(start, stop) → includes start, excludes stop
 
